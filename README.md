@@ -59,7 +59,7 @@ Other way to use is to start the flask server which will listen for token detail
 
 #### Video Demo 1 (Normal Generate Token)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D4k9ueAUklM?si=oNJo162_gMs13uaX" frameborder="0" allowfullscreen></iframe>
+https://github.com/dazzyddos/GraphShell/raw/main/video/generate_device_code.mp4
 
 ### Dynamic Device Code Phishing
 I don't need to explain what and how the device code phishing works. I would recommend reading this great [Blog Post](https://www.blackhillsinfosec.com/dynamic-device-code-phishing/) by [@rvrsh3ll](https://twitter.com/rvrsh3ll)
