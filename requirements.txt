@@ -2,3 +2,5 @@ pyjwt
 requests
 termcolor
 cmd2
+flask_cors
+sqlite3
