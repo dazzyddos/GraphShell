@@ -10,7 +10,7 @@ It now allows interacting with multiple sessions, starting a Flask server to rec
 Features
 - Generate device codes for authentication.
 - Interact with multiple sessions.
-- Start a Flask web server to handle session management.
+- Start a Flask web server to retrieve sessions remotely (Dynamic Device Code Phishing).
 - List and interact with sessions.
 - Execute various Microsoft Graph API commands.
 - Save and load sessions to/from an SQLite database.
