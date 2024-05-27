@@ -3,7 +3,7 @@
 GraphShell is a command-line not so fancy tool designed for interacting with Microsoft Graph API. Currently it facilitates many operations such as enumerating users, groups, devices, and sending emails from Entra ID ( I am lying, for some reason the mail doesn't get delivered, maybe detected as spam? ). I devloped it as I was learning and exploring Device Code Phishing and Microsoft Graph API. If you are looking for more functionality, I would recommend exploring [AADInternals](https://github.com/Gerenios/AADInternals) and [TokenTactics](https://github.com/rvrsh3ll/TokenTactics). I am sure there would be some more cool projects but I haven't explored them yet :D
 
 ### Update (05/27/2024)
-It now allows interacting with multiple sessions, starting a Flask server to receive sessions (helpful during dynamic device code phishing), and performing various tasks with authenticated sessions.
+It now allows interacting with multiple sessions, starting a Flask server to receive sessions (helpful during dynamic device code phishing), and performing various tasks with authenticated sessions (YESSSS! more graph api calls).
 ![](https://raw.githubusercontent.com/dazzyddos/GraphShell/main/images/image.png)
 
 ### Features <br>
